@@ -117,3 +117,5 @@ if ! shopt -oq posix; then
 fi
 
 export PATH=$PATH:~/bin/:~/programs/android-sdk-linux/platform-tools
+export VISUAL='vim'
+export EDITOR='vim'
