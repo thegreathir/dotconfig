@@ -170,7 +170,7 @@ bar {
         status_command i3status
 }
 
-exec gsettings set org.gnome.desktop.background show-desktop-icons false
+exec --no-startup-id gsettings set org.gnome.desktop.background show-desktop-icons false
 exec --no-startup-id  xrandr --dpi 108
 #exec   xsetroot -solid "#c63d0f"
 exec --no-startup-id feh --bg-scale /home/thegreathir/Pictures/Wallpaper/wallpaper.jpg
