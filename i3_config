@@ -174,4 +174,5 @@ exec --no-startup-id gsettings set org.gnome.desktop.background show-desktop-ico
 exec --no-startup-id  xrandr --dpi 116
 #exec   xsetroot -solid "#c63d0f"
 exec --no-startup-id feh --bg-scale /usr/share/backgrounds/$(ls /usr/share/backgrounds | grep  -E ".png|.jpg" | sed -n `shuf -i1-$(ls /usr/share/backgrounds | grep -E ".png|.jpg" | wc -l) -n1`p)
+exec --no-startup-id xscreensaver -nosplash
 exec --no-startup-id  setxkbmap us,ir -option "grp:shifts_toggle"
