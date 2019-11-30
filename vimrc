@@ -398,3 +398,5 @@ function! VisualSelection(direction, extra_filter) range
 endfunction
 
 set number
+set undofile
+set undodir=~/.vim/undodir
